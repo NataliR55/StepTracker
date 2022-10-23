@@ -7,6 +7,7 @@ public class Main {
         System.out.println("\n"+"Вас приветствует программа: _-Счётчик калорий-_");
         System.out.println("------------------------------------------");
         StepTracker stepTracker = new StepTracker();
+        Integer a=10;
 
         while (true) {
             printMenu();
@@ -54,7 +55,7 @@ public class Main {
                 System.out.println("ВВедено недопустимое значение!");
             }
         }
-        System.out.println("!!!Программа завершена!!!");
+        System.out.println("Всего доброго");
     }
     public static void printMenu() {
         System.out.println("Что бы вы хотели сделать? ");
